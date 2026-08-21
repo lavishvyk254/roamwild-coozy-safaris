@@ -15,6 +15,10 @@
   --text-dark: #1b2e1f;
 }
 
+html, body, #root {
+  height: 100%;
+}
+
 body {
   font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
   background: var(--cream);
@@ -324,4 +328,34 @@ body {
 .experience-card h3 {
   margin-top: 12px;
   color: var(--forest-dark);
+}
+
+/* FOOTER */
+.footer {
+  background: var(--forest-dark);
+  color: var(--sand);
+  padding: 24px 30px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-icons a {
+  color: white;
+  transition: color 0.2s, transform 0.2s;
+  display: flex;
+}
+
+.footer-icons a:hover {
+  color: var(--leaf);
+  transform: translateY(-2px);
 }
