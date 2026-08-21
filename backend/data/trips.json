@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kanunga-falls",
+    "name": "Kanunga Falls Hike & Teambuilding",
+    "date": "2026-09-06",
+    "price": "KES 2,599",
+    "description": "Waterfall trek, teambuilding, lunch, professional photography & transport included.",
+    "image": "/images/kanunga-falls.jpg"
+  },
+  {
+    "id": "adventure-with-purpose",
+    "name": "Adventure with Purpose (Charity Trip)",
+    "date": "2026-05-31",
+    "price": "KES 2,599",
+    "description": "Morning visit to Morning Star Children's Home, Kamulu — donate & play games. Afternoon sightseeing.",
+    "image": "/images/charity-trip.jpg"
+  },
+  {
+    "id": "anti-gravity-spot",
+    "name": "Kyamwilu Anti-Gravity Spot",
+    "date": "2026-05-31",
+    "price": "KES 2,599",
+    "description": "Road trip to the famous anti-gravity spot in Machakos.",
+    "image": "/images/anti-gravity.jpg"
+  },
+  {
+    "id": "wrc-rally",
+    "name": "WRC Safari Rally Weekend",
+    "date": "2026-03-15",
+    "price": "KES 2,599",
+    "description": "A weekend getaway following the action-packed WRC Safari Rally.",
+    "image": "/images/wrc-rally.jpg"
+  },
+  {
+    "id": "paintball-battle",
+    "name": "Paintball Battle",
+    "date": "2026-04-05",
+    "price": "KES 3,000",
+    "description": "An adrenaline-filled day of paintball action with the crew.",
+    "image": "/images/paintball.jpg"
+  },
+  {
+    "id": "summertides-malindi",
+    "name": "Summertides Malindi",
+    "date": "2026-07-04",
+    "price": "KES 21,000",
+    "description": "A multi-day getaway to Malindi — beach, sun, and unforgettable memories.",
+    "image": "/images/summertides-malindi.jpg"
+  }
+]
