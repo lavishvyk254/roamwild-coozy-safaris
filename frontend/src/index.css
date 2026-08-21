@@ -5,14 +5,14 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --forest-dark: #1b4332;
-  --forest-mid: #2d6a4f;
-  --forest-light: #40916c;
-  --leaf: #74c69d;
+  --brand-black: #1a1a1a;
+  --brand-black-soft: #2b2b2b;
+  --brand-red: #c8102e;
+  --brand-red-dark: #9c0c23;
+  --brand-white: #ffffff;
   --cream: #f8f6f0;
-  --earth: #6f4e37;
-  --sand: #e9edc9;
-  --text-dark: #1b2e1f;
+  --sand: #ececec;
+  --text-dark: #1a1a1a;
 }
 
 html, body, #root {
@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--forest-dark);
+  background: var(--brand-black);
   padding: 16px 30px;
   flex-wrap: wrap;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .nav-links a:hover {
-  background: var(--forest-light);
+  background: var(--brand-red);
 }
 
 .page {
@@ -73,10 +73,10 @@ body {
 }
 
 .page h1 {
-  color: var(--forest-dark);
+  color: var(--brand-black);
   margin-bottom: 20px;
   font-size: 32px;
-  border-bottom: 3px solid var(--leaf);
+  border-bottom: 3px solid var(--brand-red);
   display: inline-block;
   padding-bottom: 8px;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .page h3 {
-  color: var(--forest-mid);
+  color: var(--brand-red);
   margin-top: 24px;
   margin-bottom: 10px;
 }
@@ -139,8 +139,8 @@ body {
 }
 
 .btn-primary {
-  background: var(--leaf);
-  color: var(--forest-dark);
+  background: var(--brand-red);
+  color: white;
 }
 
 .btn-secondary {
@@ -165,7 +165,7 @@ body {
   background: white;
   border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 4px 14px rgba(27,67,50,0.12);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
   padding: 16px;
   border: 1px solid var(--sand);
 }
@@ -181,11 +181,11 @@ body {
 
 .trip-card h3 {
   margin-top: 12px;
-  color: var(--forest-dark);
+  color: var(--brand-black);
 }
 
 .date {
-  color: var(--forest-mid);
+  color: var(--brand-red);
   font-weight: 600;
   margin: 4px 0 10px;
 }
@@ -193,7 +193,7 @@ body {
 .price {
   font-weight: bold;
   margin: 8px 0;
-  color: var(--earth);
+  color: var(--brand-black);
 }
 
 .whatsapp-btn {
@@ -229,8 +229,8 @@ body {
   color: white;
 }
 
-.badge-upcoming { background: var(--leaf); color: var(--forest-dark); }
-.badge-past { background: #999; }
+.badge-upcoming { background: var(--brand-red); color: white; }
+.badge-past { background: #888; }
 .past-trip { opacity: 0.65; }
 
 .disabled-btn {
@@ -244,7 +244,7 @@ body {
 }
 
 .page a {
-  color: var(--forest-mid);
+  color: var(--brand-red);
   font-weight: 600;
 }
 
@@ -268,7 +268,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(27,67,50,0.6);
+  background: rgba(0,0,0,0.6);
   color: white;
   border: none;
   width: 32px;
@@ -282,7 +282,7 @@ body {
 }
 
 .carousel-btn:hover {
-  background: rgba(27,67,50,0.9);
+  background: var(--brand-red);
 }
 
 .carousel-btn-left { left: 8px; }
@@ -300,12 +300,13 @@ body {
   height: 8px;
   border-radius: 50%;
   background: var(--sand);
-  border: 1px solid var(--forest-light);
+  border: 1px solid var(--brand-black);
   cursor: pointer;
 }
 
 .dot-active {
-  background: var(--forest-light);
+  background: var(--brand-red);
+  border-color: var(--brand-red);
 }
 
 /* EXPERIENCE PAGE */
@@ -320,19 +321,19 @@ body {
   background: white;
   border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 4px 14px rgba(27,67,50,0.12);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
   padding: 16px;
   border: 1px solid var(--sand);
 }
 
 .experience-card h3 {
   margin-top: 12px;
-  color: var(--forest-dark);
+  color: var(--brand-black);
 }
 
 /* FOOTER */
 .footer {
-  background: var(--forest-dark);
+  background: var(--brand-black);
   color: var(--sand);
   padding: 24px 30px;
   text-align: center;
@@ -356,6 +357,6 @@ body {
 }
 
 .footer-icons a:hover {
-  color: var(--leaf);
+  color: var(--brand-red);
   transform: translateY(-2px);
 }
