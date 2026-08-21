@@ -5,7 +5,7 @@ export default function Trips() {
   const [trips, setTrips] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/trips')
+    fetch('https://roamwild-backend.onrender.com/api/trips')
       .then(res => res.json())
       .then(data => setTrips(data))
       .catch(err => console.error('Error fetching trips:', err));
